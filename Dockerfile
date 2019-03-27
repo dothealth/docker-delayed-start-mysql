@@ -1,4 +1,4 @@
-FROM mysql:latest
+FROM mysql:5.7
 
 ADD mysql.docker-entrypoint.sh /usr/local/bin/mysql.docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/mysql.docker-entrypoint.sh
